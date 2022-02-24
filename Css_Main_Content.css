@@ -1,0 +1,156 @@
+body p{
+    font-size: 13px;
+}
+/*Navigation bar---------------------------------------------------------------*/
+.navbar-dark, .bg-dark{
+    background-color: #041C32;
+}
+
+
+.navbar{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand{
+    font-weight: bolder;
+}
+
+.nav-link{
+    font-size: 14px;
+}
+
+.regis{
+    padding: 5px 20px;
+    background-color: #0E6E9A;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+/*Main Content-------------*/
+.main-content{
+    padding-top: 50px;
+    background-color: #041C32;
+    color: white;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+.dimain{
+    opacity: 0;
+    transform: translate(0, 5px);
+}
+
+.muncul{
+    opacity: 1;
+    transition: 0.5s;
+    transform: translate(0,0);
+}
+
+.row h1, h4{
+    color: #ECB365;
+    font-weight: bold;
+}
+
+.row h1{
+    font-size: 50px;
+}
+
+.bf-title p{
+    margin-top: 20px;    
+}
+
+.bf-title{
+    margin-bottom: -10px;
+    margin-top: 65px;
+}
+
+.get-button{
+    width: 275px;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.get-button p{
+    font-size: 18px;
+    color: #041C32;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.get-button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.inner-button{
+    background-color: #0E6E9A;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.inner-button img{
+    height: 40px;
+    width: 40px;
+   margin-top: 10px;
+   margin-left: 10px ;
+}
+
+.main-image img{
+    margin-top: 20px;
+    width: 68%;
+    padding-top: 0px;
+}
+
+.main-image p{
+    padding-top: 20px;
+}
+
+.value1{
+    height: 90px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.tengah{
+    border-right:5px solid #0E6E9A;
+    border-left:5px solid #0E6E9A;
+}
+
+.value ul li, .medsos ul li{
+    text-decoration: none;
+    list-style-type:  none;
+}
+
+.logo{
+    padding: 15px 23px;
+}
+
+.logo :hover{
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.logo img{
+    height: 45px;
+    width: 45px;
+}
+
+.value p{
+    font-size: 13px;
+}
+
+.value h4{
+    font-weight: bold;
+}

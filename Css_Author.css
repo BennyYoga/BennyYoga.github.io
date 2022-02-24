@@ -1,0 +1,53 @@
+.writer img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.writer h5, .writer h4{
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+}
+
+.writer .atas{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.writer .atasan{
+    margin-top: 20px;
+    margin-bottom: -3px;
+}
+
+.writer .atasan p{
+    margin-top: 10px;
+}
+
+.writer .skills img{
+    width: 150px;
+}
+
+.writer{
+    margin-bottom: 30px;
+}
+
+.footer{
+    width: 100%;
+    height: 35px;
+    background-color: #041C32 ;
+    color: white;
+}
+
+.skil:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.ngasal{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    line-height: 35px;
+}

@@ -1,0 +1,119 @@
+/*
+- Stelah main content
+- card box
+- Culture Content
+*/
+
+.gambar img{
+    width: 70%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.teks{
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+    margin: 20px;
+}
+
+.two-content p{
+    padding: 0 20px;
+}
+
+.contennya{
+    text-align: justify;
+}
+
+
+.card-box{
+    margin: 20px auto;
+    width: 250px;
+    height: 310px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.card-box:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.card-box button{
+    border-radius: 5px;
+    background-color: #0E6E9A;
+    padding: 2px 30px;
+    color: white;
+    border: 2px solid transparent;
+}
+
+.card-conten img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.judulnya{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.isinya p{
+    padding: 0 10px;
+}
+
+.card-conten{
+    margin-bottom: 100px;
+}
+
+
+/*Culture---------------------*/
+.culture img{
+    width: 70%;
+}
+
+.culture img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.jdl h4{
+    color: rgb(53, 53, 53);
+    margin-top: -15px;
+    font-weight: bold;
+}
+
+.jdl .atas{
+    margin-top: 30px;
+}
+
+.culture ul li{
+    list-style-type: none;
+}
+
+.box-culture{
+    width: 200px;
+    height: 300px;
+}
+
+
+.culture li img{
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+
+/*For Javascript*/
+.ilang, .ilang1, .ilang2, .sisi1, .sisi2, .sisi3, .ilang-bawah{
+    opacity: 0;
+    transform: translate(0, 10px);
+}
+
+.ada, .ada1, .ada2, .adasisi1, .adasisi2, .adasisi3, .ada-bawah{
+    opacity: 1;
+    transition: 0.5s;
+    transform: translate(0,0);
+}

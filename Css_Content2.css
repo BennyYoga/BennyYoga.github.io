@@ -1,0 +1,87 @@
+/*
+ - Three reflective content
+ - Fomous content
+*/
+
+.content-img{
+    height: 300px;
+    color: white;
+    background-image: url(img/Mountain.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-img1{
+    height: 250px;
+    color: white;
+    background-image: url(img/Forest.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-img2{
+    height: 250px;
+    color: white;
+    background-image: url(img/Beach.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-img h3{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.isian{
+    text-align: right;
+}
+
+.isian p, .isian1 p{
+    margin: 20px 0;
+}
+
+.isian button, .isian1 button{
+    font-weight: bold;
+    padding: 5px 40px;
+    border-radius: 10px;
+    background-color: white;
+    border: 0 solid transparent;
+}
+
+.isian button:hover, .isian1 button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.title{
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+
+/*Card Content -----------------*/
+.famous h4{
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+    margin-top: 75px;
+}
+
+.card{
+    margin: 20px 10px;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.famous button{
+    padding: 5px 50px;
+    background-color: #0E6E9A;
+    border: 0px solid transparent;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
