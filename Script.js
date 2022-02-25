@@ -11,9 +11,11 @@ $('.nav-link').on('click', function(e){
     });
 });
 
+
 $(window).on('load',function(){
     $('.dimain').addClass('muncul');
 });
+
 
 $(window).scroll(function(){
 

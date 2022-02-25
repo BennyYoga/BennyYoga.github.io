@@ -7,7 +7,7 @@
     height: 300px;
     color: white;
     background-image: url(img/Mountain.png);
-    background-size: cover;
+    background-size: fit;
     background-attachment: fixed;
 }
 
